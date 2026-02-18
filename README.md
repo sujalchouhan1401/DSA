@@ -1,2 +1,2 @@
 # DSA
-Day-1
+Author - Sujal Chouhan
