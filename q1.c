@@ -1,5 +1,5 @@
 // Code for a Pallindrome number.
-
+// A number that reads same Forward and Backward.
 #include<stdio.h>
 
 int main(){
@@ -23,4 +23,5 @@ int main(){
     }
 
     return 0;
+
 }
