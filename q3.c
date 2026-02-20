@@ -1,3 +1,6 @@
+//Code for a Toeplitz Matrix.
+//A matrix is Toeplitz if every diagonal from top-left to bottom-right has the same elements.
+
 #include<stdio.h>
 
 int main(){
@@ -44,4 +47,5 @@ int main(){
     }
 
     return 0;
+
 }
