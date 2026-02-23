@@ -1,0 +1,40 @@
+// Code for Remove Element from Array (In-Place).
+
+#include <stdio.h>
+
+int removeElement(int nums[], int numsSize, int val){
+    int k=0;
+
+    for(int i=0; i<numsSize; i++){
+        if(nums[i] != val){
+            nums[k] = nums[i];
+            k++;
+        }
+    }
+    return k;
+}
+
+int main(){
+    int n, val;
+
+    printf("Enter number of elements: ");
+    scanf("%d", &n);
+
+    int nums[n];
+
+    for(int i=0; i<n; i++){
+        printf("Enter element %d: ", i+1);
+        scanf("%d", &nums[i]);
+    }
+
+    printf("Enter value to remove: ");
+    scanf("%d", &val);
+
+    int k = removeElement(nums, n, val);
+
+    printf("New Array: ");
+    for(int i=0; i<k; i++){
+        printf("%d ", nums[i]);
+    }
+    return 0;
+}
