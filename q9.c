@@ -1,4 +1,4 @@
-// Cosde for Climbing Stairs.
+// Code for Climbing Stairs.
 
 #include<stdio.h>
 
@@ -34,4 +34,5 @@ int main(){
     }
 
     return 0;
+
 }
